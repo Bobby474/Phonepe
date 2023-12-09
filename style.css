@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.payment-container {
+    text-align: center;
+}
+
+#processingStatus {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.success, .failure {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.success {
+    color: green;
+}
+
+.failure {
+    color: red;
+}
